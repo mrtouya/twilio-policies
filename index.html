@@ -72,12 +72,72 @@
       color: #999;
       margin-top: 0.2rem;
     }
+
+    .sms-disclosure {
+      text-align: left;
+      background: #fff;
+      border: 1px solid #e8e4de;
+      border-radius: 6px;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .sms-disclosure h2 {
+      font-family: 'Source Serif 4', serif;
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: #1a1a1a;
+      margin-bottom: 0.5rem;
+      margin-top: 1rem;
+    }
+
+    .sms-disclosure h2:first-child {
+      margin-top: 0;
+    }
+
+    .sms-disclosure p {
+      font-size: 0.88rem;
+      color: #444;
+      margin-bottom: 0.75rem;
+    }
+
+    .sms-disclosure ul {
+      margin: 0.5rem 0 0.75rem 1.25rem;
+      font-size: 0.88rem;
+      color: #444;
+    }
+
+    .sms-disclosure li {
+      margin-bottom: 0.35rem;
+    }
+
+    .sms-disclosure a {
+      color: #5a7a5a;
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
   </style>
 </head>
 <body>
   <div class="card">
     <div class="logo">Stephane's Dev Tools</div>
-    <div class="subtitle">Legal Documents</div>
+    <div class="subtitle">Automated SMS Notification Service</div>
+
+    <div class="sms-disclosure">
+      <h2>About This Service</h2>
+      <p>Stephane's Dev Tools sends automated SMS notifications related to development tool activity, including task completion alerts (e.g., long-running prompt completions), build status updates, and system notifications.</p>
+
+      <h2>SMS Terms &amp; Consent</h2>
+      <p>By configuring your phone number to receive notifications from this service, you agree to receive automated SMS messages from Stephane's Dev Tools at the phone number you provide.</p>
+      <ul>
+        <li><strong>Message frequency:</strong> Varies based on development activity; typically fewer than 50 messages per month.</li>
+        <li><strong>Message and data rates may apply.</strong> Consult your wireless carrier for details.</li>
+        <li><strong>Opt-out:</strong> Reply <strong>STOP</strong> to any message to unsubscribe.</li>
+        <li><strong>Help:</strong> Reply <strong>HELP</strong> to any message or email <a href="mailto:stouya88+twilio@gmail.com">stouya88+twilio@gmail.com</a>.</li>
+      </ul>
+      <p>Consent is not a condition of purchase of any goods or services. View our <a href="privacy-policy.html">Privacy Policy</a> and <a href="terms-and-conditions.html">Terms &amp; Conditions</a> for full details.</p>
+    </div>
+
     <div class="links">
       <a href="privacy-policy.html">
         Privacy Policy
